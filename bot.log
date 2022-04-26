@@ -1,0 +1,593 @@
+24-Jan-22 16:41:54 - INFO - Start bot "Choosing_hotels_bot"
+24-Jan-22 16:41:59 - INFO - Create new request
+24-Jan-22 16:42:05 - INFO - Update request
+24-Jan-22 16:42:42 - INFO - Start bot "Choosing_hotels_bot"
+24-Jan-22 16:42:45 - INFO - Create new request
+24-Jan-22 16:42:51 - INFO - Update request
+24-Jan-22 16:43:19 - INFO - Start bot "Choosing_hotels_bot"
+24-Jan-22 16:43:21 - INFO - Create new request
+24-Jan-22 16:43:27 - INFO - Update request
+24-Jan-22 16:44:37 - INFO - Create new request
+24-Jan-22 16:44:47 - INFO - Update request
+24-Jan-22 16:52:54 - INFO - Start bot "Choosing_hotels_bot"
+24-Jan-22 16:52:56 - INFO - Create new request
+24-Jan-22 16:53:01 - INFO - Update request
+24-Jan-22 16:55:31 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Unexpected end of name token at byte offset 433
+24-Jan-22 16:55:58 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Unexpected end of name token at byte offset 433
+24-Jan-22 16:56:56 - INFO - Start bot "Choosing_hotels_bot"
+24-Jan-22 16:57:01 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Unexpected end of name token at byte offset 433
+24-Jan-22 16:57:04 - INFO - Start bot "Choosing_hotels_bot"
+24-Jan-22 16:57:09 - INFO - Create new request
+24-Jan-22 16:57:22 - INFO - Update request
+25-Jan-22 10:38:46 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:38:53 - INFO - Create new request
+25-Jan-22 10:39:03 - INFO - Update request
+25-Jan-22 10:41:27 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:41:28 - INFO - Create new request
+25-Jan-22 10:41:37 - INFO - Update request
+25-Jan-22 10:46:59 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:47:01 - INFO - Create new request
+25-Jan-22 10:47:10 - INFO - Update request
+25-Jan-22 10:48:37 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:48:47 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:48:49 - INFO - Create new request
+25-Jan-22 10:48:56 - INFO - Update request
+25-Jan-22 10:52:26 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:52:28 - INFO - Create new request
+25-Jan-22 10:52:37 - INFO - Update request
+25-Jan-22 10:58:50 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 10:58:54 - INFO - Create new request
+25-Jan-22 10:59:07 - INFO - Update request
+25-Jan-22 11:00:17 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:00:20 - INFO - Create new request
+25-Jan-22 11:00:26 - INFO - Update request
+25-Jan-22 11:00:49 - INFO - Create new request
+25-Jan-22 11:01:06 - INFO - Update request
+25-Jan-22 11:03:59 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:04:01 - INFO - Create new request
+25-Jan-22 11:04:13 - INFO - Update request
+25-Jan-22 11:05:39 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:05:42 - INFO - Create new request
+25-Jan-22 11:05:48 - INFO - Update request
+25-Jan-22 11:12:13 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:12:17 - INFO - Create new request
+25-Jan-22 11:12:27 - INFO - Update request
+25-Jan-22 11:14:50 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:14:57 - INFO - Create new request
+25-Jan-22 11:15:10 - INFO - Update request
+25-Jan-22 11:18:35 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:18:37 - INFO - Create new request
+25-Jan-22 11:18:42 - INFO - Update request
+25-Jan-22 11:21:12 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:21:20 - INFO - Create new request
+25-Jan-22 11:21:29 - INFO - Update request
+25-Jan-22 11:25:30 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:25:38 - INFO - Create new request
+25-Jan-22 11:26:01 - INFO - Update request
+25-Jan-22 11:27:31 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:27:37 - INFO - Create new request
+25-Jan-22 11:27:44 - INFO - Update request
+25-Jan-22 11:30:55 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:31:03 - INFO - Create new request
+25-Jan-22 11:31:13 - INFO - Update request
+25-Jan-22 11:34:26 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:34:35 - INFO - Create new request
+25-Jan-22 11:34:41 - INFO - Update request
+25-Jan-22 11:36:45 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:36:49 - INFO - Create new request
+25-Jan-22 11:36:55 - INFO - Update request
+25-Jan-22 11:37:43 - ERROR - Ошибка GET запроса к сервису rapidapi.com/properties/get-hotel-photos Нет данных по фото
+Traceback (most recent call last):
+  File "C:\Users\kulikov.a\PycharmProjects\python_basic_diploma\func.py", line 128, in get_photo_hotel
+    data = json.loads(response.text)
+  File "C:\Users\kulikov.a\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\kulikov.a\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\kulikov.a\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+25-Jan-22 11:42:11 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:42:12 - INFO - Create new request
+25-Jan-22 11:42:18 - INFO - Update request
+25-Jan-22 11:42:58 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:43:04 - INFO - Create new request
+25-Jan-22 11:43:10 - INFO - Update request
+25-Jan-22 11:43:42 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:43:47 - INFO - Create new request
+25-Jan-22 11:43:53 - INFO - Update request
+25-Jan-22 11:47:06 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:47:07 - INFO - Create new request
+25-Jan-22 11:47:13 - INFO - Update request
+25-Jan-22 11:47:36 - ERROR - Ошибка GET запроса к сервису rapidapi.com/properties/get-hotel-photos Нет данных по фото
+Traceback (most recent call last):
+  File "C:\Users\kulikov.a\PycharmProjects\python_basic_diploma\func.py", line 128, in get_photo_hotel
+    data = json.loads(response.text)
+  File "C:\Users\kulikov.a\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\kulikov.a\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\kulikov.a\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+25-Jan-22 11:53:23 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:53:28 - INFO - Create new request
+25-Jan-22 11:53:47 - INFO - Update request
+25-Jan-22 11:54:12 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: there are no messages to send
+25-Jan-22 11:58:04 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:58:06 - INFO - Create new request
+25-Jan-22 11:58:13 - INFO - Update request
+25-Jan-22 11:59:11 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 11:59:20 - INFO - Create new request
+25-Jan-22 11:59:36 - INFO - Update request
+25-Jan-22 11:59:52 - INFO - Create new request
+25-Jan-22 12:00:00 - INFO - Update request
+25-Jan-22 12:17:50 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 12:18:16 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 12:18:25 - INFO - Create new request
+25-Jan-22 12:18:32 - INFO - Update request
+25-Jan-22 13:31:46 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 13:31:54 - INFO - Create new request
+25-Jan-22 13:31:59 - INFO - Update request
+25-Jan-22 13:39:08 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 13:39:16 - INFO - Create new request
+25-Jan-22 13:39:21 - INFO - Update request
+25-Jan-22 13:39:46 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: there are no messages to send
+25-Jan-22 13:41:56 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 13:41:59 - INFO - Create new request
+25-Jan-22 13:42:05 - INFO - Update request
+25-Jan-22 13:42:29 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: there are no messages to send
+25-Jan-22 13:42:58 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 13:42:59 - INFO - Create new request
+25-Jan-22 13:43:05 - INFO - Update request
+25-Jan-22 13:43:38 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: group send failed
+25-Jan-22 13:46:19 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 13:46:21 - INFO - Create new request
+25-Jan-22 13:46:26 - INFO - Update request
+25-Jan-22 15:03:38 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:04:33 - INFO - Create new request
+25-Jan-22 15:04:39 - INFO - Update request
+25-Jan-22 15:05:15 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: too much messages to send as an album
+25-Jan-22 15:06:17 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:06:24 - INFO - Create new request
+25-Jan-22 15:06:41 - INFO - Update request
+25-Jan-22 15:11:24 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:11:28 - INFO - Create new request
+25-Jan-22 15:11:54 - INFO - Update request
+25-Jan-22 15:14:03 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:14:07 - INFO - Create new request
+25-Jan-22 15:14:18 - INFO - Update request
+25-Jan-22 15:15:52 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:15:57 - INFO - Create new request
+25-Jan-22 15:16:03 - INFO - Update request
+25-Jan-22 15:19:23 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:19:28 - INFO - Create new request
+25-Jan-22 15:19:34 - INFO - Update request
+25-Jan-22 15:21:09 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 15:21:11 - INFO - Create new request
+25-Jan-22 15:21:16 - INFO - Update request
+25-Jan-22 16:15:38 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 16:15:42 - INFO - Create new request
+25-Jan-22 16:15:49 - INFO - Update request
+25-Jan-22 16:20:30 - INFO - Create new request
+25-Jan-22 16:20:38 - INFO - Update request
+25-Jan-22 16:21:59 - INFO - Start bot "Choosing_hotels_bot"
+25-Jan-22 16:22:07 - INFO - Create new request
+25-Jan-22 16:22:13 - INFO - Update request
+26-Jan-22 12:49:38 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:05:32 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:05:50 - INFO - restart bot from user 633314824
+26-Jan-22 15:05:53 - INFO - Create new request
+26-Jan-22 15:05:59 - INFO - Update request
+26-Jan-22 15:06:44 - INFO - End request
+26-Jan-22 15:07:23 - INFO - Start history query
+26-Jan-22 15:07:23 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Unexpected end of name token at byte offset 433
+26-Jan-22 15:08:58 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:09:00 - INFO - Start history query
+26-Jan-22 15:09:00 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Unexpected end of name token at byte offset 433
+26-Jan-22 15:13:56 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:14:00 - INFO - Start history query
+26-Jan-22 15:14:01 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Unexpected end of name token at byte offset 296
+26-Jan-22 15:14:49 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:14:52 - INFO - Start history query
+26-Jan-22 15:14:52 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+26-Jan-22 15:15:32 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:15:56 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:15:57 - INFO - Start history query
+26-Jan-22 15:15:58 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+26-Jan-22 15:16:38 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:16:41 - INFO - Start history query
+26-Jan-22 15:16:41 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+26-Jan-22 15:18:33 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:18:33 - INFO - Start history query
+26-Jan-22 15:18:34 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message must be non-empty
+26-Jan-22 15:19:24 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:19:27 - INFO - Start history query
+26-Jan-22 15:19:29 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message must be non-empty
+26-Jan-22 15:20:14 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:20:16 - INFO - Start history query
+26-Jan-22 15:20:18 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message must be non-empty
+26-Jan-22 15:21:46 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:22:26 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:22:28 - INFO - Start history query
+26-Jan-22 15:31:32 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:31:36 - INFO - Start history query
+26-Jan-22 15:32:09 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:32:11 - INFO - Start history query
+26-Jan-22 15:32:32 - ERROR - A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 9
+26-Jan-22 15:35:07 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:35:14 - INFO - Start history query
+26-Jan-22 15:37:19 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:37:28 - INFO - Start history query
+26-Jan-22 15:40:24 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:41:23 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:41:27 - INFO - Start history query
+26-Jan-22 15:41:31 - INFO - End history query
+26-Jan-22 15:43:08 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:43:08 - INFO - Start history query
+26-Jan-22 15:43:13 - INFO - End history query
+26-Jan-22 15:44:09 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:44:13 - INFO - Start history query
+26-Jan-22 15:44:28 - INFO - End history query
+26-Jan-22 15:46:00 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:46:04 - INFO - Start history query
+26-Jan-22 15:46:19 - INFO - End history query
+26-Jan-22 15:47:01 - INFO - Start bot "Choosing_hotels_bot"
+26-Jan-22 15:47:04 - INFO - Start history query
+26-Jan-22 15:47:25 - INFO - End history query
+27-Jan-22 11:33:38 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 11:33:44 - INFO - restart bot from user 633314824
+27-Jan-22 11:33:59 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 11:34:00 - INFO - restart bot from user 633314824
+27-Jan-22 14:24:06 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 14:24:23 - INFO - restart bot from user 633314824
+27-Jan-22 14:24:27 - INFO - Start history query
+27-Jan-22 14:24:42 - INFO - End history query
+27-Jan-22 14:24:44 - INFO - Create new request
+27-Jan-22 14:24:53 - INFO - Update request
+27-Jan-22 14:25:09 - INFO - End request
+27-Jan-22 14:25:19 - INFO - Create new request
+27-Jan-22 14:25:44 - INFO - Create new request
+27-Jan-22 14:25:50 - INFO - Update request
+27-Jan-22 14:26:31 - INFO - End request
+27-Jan-22 14:30:18 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 14:30:33 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 14:30:36 - INFO - Create new request
+27-Jan-22 14:30:44 - INFO - Update request
+27-Jan-22 14:31:15 - INFO - End request
+27-Jan-22 14:51:35 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 14:51:39 - INFO - Create new request
+27-Jan-22 14:51:49 - INFO - Update request
+27-Jan-22 14:52:18 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be edited
+27-Jan-22 14:53:35 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 14:53:38 - INFO - Create new request
+27-Jan-22 14:53:47 - INFO - Update request
+27-Jan-22 14:54:09 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be edited
+27-Jan-22 14:57:43 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 14:57:45 - INFO - Create new request
+27-Jan-22 14:57:51 - INFO - Update request
+27-Jan-22 14:58:28 - INFO - End request
+27-Jan-22 14:59:58 - INFO - Start bot "Choosing_hotels_bot"
+27-Jan-22 15:00:00 - INFO - Create new request
+27-Jan-22 15:00:07 - INFO - Update request
+27-Jan-22 15:00:25 - INFO - End request
+28-Jan-22 11:34:31 - INFO - Start bot "Choosing_hotels_bot"
+28-Jan-22 11:34:47 - INFO - Create new request
+28-Jan-22 11:34:57 - INFO - Update request
+28-Jan-22 11:35:32 - INFO - End request
+28-Jan-22 11:42:39 - INFO - Create new request
+28-Jan-22 11:42:47 - INFO - Update request
+28-Jan-22 11:43:06 - INFO - Create new request
+18-Apr-22 16:57:24 - INFO - Start bot "Choosing_hotels_bot"
+18-Apr-22 16:57:50 - INFO - restart bot from user 633314824
+18-Apr-22 16:58:03 - INFO - Create new request
+19-Apr-22 11:38:23 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 11:38:49 - INFO - Create new request
+19-Apr-22 12:02:53 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:03:15 - INFO - Create new request
+19-Apr-22 12:16:31 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:16:39 - INFO - Create new request
+19-Apr-22 12:17:25 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:17:26 - INFO - Create new request
+19-Apr-22 12:18:32 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:18:34 - INFO - Create new request
+19-Apr-22 12:19:29 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:19:31 - INFO - Create new request
+19-Apr-22 12:22:11 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:22:13 - INFO - Create new request
+19-Apr-22 12:23:27 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:23:29 - INFO - Create new request
+19-Apr-22 12:30:42 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:30:44 - INFO - Create new request
+19-Apr-22 12:32:43 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:32:44 - INFO - Create new request
+19-Apr-22 12:33:22 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 12:33:24 - INFO - Create new request
+19-Apr-22 14:37:36 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 14:47:52 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 14:48:14 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 14:53:50 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 14:53:57 - INFO - Create new request
+19-Apr-22 15:03:16 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 15:03:16 - INFO - Create new request
+19-Apr-22 15:04:33 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 15:04:35 - INFO - Create new request
+19-Apr-22 15:05:33 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 15:05:39 - INFO - Create new request
+19-Apr-22 15:07:54 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 15:07:58 - INFO - Create new request
+19-Apr-22 15:08:50 - INFO - Update request
+19-Apr-22 15:09:30 - INFO - End request
+19-Apr-22 15:30:47 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 15:31:04 - INFO - Create new request
+19-Apr-22 15:31:16 - INFO - Update request
+19-Apr-22 15:32:11 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: failed to get HTTP URL content
+19-Apr-22 16:02:47 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 16:03:16 - INFO - Create new request
+19-Apr-22 16:03:26 - INFO - Update request
+19-Apr-22 16:04:15 - INFO - End request
+19-Apr-22 16:04:25 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 16:04:29 - INFO - Create new request
+19-Apr-22 16:09:42 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 16:09:45 - INFO - Create new request
+19-Apr-22 16:10:02 - INFO - Update request
+19-Apr-22 16:15:36 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 16:15:43 - INFO - Create new request
+19-Apr-22 16:15:48 - INFO - Update request
+19-Apr-22 16:16:18 - INFO - End request
+19-Apr-22 17:11:10 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:11:16 - INFO - restart bot from user 633314824
+19-Apr-22 17:11:19 - INFO - Create new request
+19-Apr-22 17:11:29 - INFO - Update request
+19-Apr-22 17:11:40 - INFO - Create new request
+19-Apr-22 17:11:52 - INFO - Update request
+19-Apr-22 17:12:35 - INFO - Create new request
+19-Apr-22 17:18:26 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:18:29 - INFO - Create new request
+19-Apr-22 17:18:39 - INFO - Update request
+19-Apr-22 17:20:32 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:20:35 - INFO - Create new request
+19-Apr-22 17:20:39 - INFO - Update request
+19-Apr-22 17:22:19 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:22:22 - INFO - Create new request
+19-Apr-22 17:22:27 - INFO - Update request
+19-Apr-22 17:25:41 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:25:43 - INFO - Create new request
+19-Apr-22 17:25:51 - INFO - Update request
+19-Apr-22 17:26:35 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:26:37 - INFO - Create new request
+19-Apr-22 17:26:42 - INFO - Update request
+19-Apr-22 17:28:42 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:28:45 - INFO - Create new request
+19-Apr-22 17:28:52 - INFO - Update request
+19-Apr-22 17:30:40 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:30:42 - INFO - Create new request
+19-Apr-22 17:30:47 - INFO - Update request
+19-Apr-22 17:31:35 - INFO - Start bot "Choosing_hotels_bot"
+19-Apr-22 17:31:37 - INFO - Create new request
+19-Apr-22 17:31:43 - INFO - Update request
+20-Apr-22 11:24:05 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 11:24:15 - INFO - Create new request
+20-Apr-22 11:24:20 - INFO - Update request
+20-Apr-22 11:24:52 - INFO - End request
+20-Apr-22 11:25:06 - INFO - Create new request
+20-Apr-22 11:25:26 - INFO - Update request
+20-Apr-22 11:26:03 - INFO - End request
+20-Apr-22 11:26:53 - INFO - Create new request
+20-Apr-22 11:27:01 - INFO - Update request
+20-Apr-22 11:52:28 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 11:52:31 - INFO - Create new request
+20-Apr-22 11:52:36 - INFO - Update request
+20-Apr-22 11:54:44 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 11:54:47 - INFO - Create new request
+20-Apr-22 11:54:55 - INFO - Update request
+20-Apr-22 11:58:57 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 11:58:59 - INFO - Create new request
+20-Apr-22 11:59:04 - INFO - Update request
+20-Apr-22 12:00:00 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 12:00:05 - INFO - Create new request
+20-Apr-22 12:00:11 - INFO - Update request
+20-Apr-22 12:03:18 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 12:03:20 - INFO - Create new request
+20-Apr-22 12:03:38 - INFO - Update request
+20-Apr-22 12:15:21 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 12:15:24 - INFO - Create new request
+20-Apr-22 12:15:34 - INFO - Create new request
+20-Apr-22 12:15:48 - INFO - Update request
+20-Apr-22 12:16:09 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be edited
+20-Apr-22 12:22:58 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 12:23:02 - INFO - Create new request
+20-Apr-22 12:23:23 - INFO - Update request
+20-Apr-22 12:24:04 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 12:24:07 - INFO - Create new request
+20-Apr-22 12:24:17 - INFO - Update request
+20-Apr-22 12:24:33 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be edited
+20-Apr-22 12:25:42 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 12:25:43 - INFO - Create new request
+20-Apr-22 12:25:51 - INFO - Update request
+20-Apr-22 12:26:23 - INFO - End request
+20-Apr-22 12:29:26 - INFO - Create new request
+20-Apr-22 12:29:34 - INFO - Update request
+20-Apr-22 12:29:52 - INFO - End request
+20-Apr-22 12:34:04 - INFO - Create new request
+20-Apr-22 12:34:13 - INFO - Update request
+20-Apr-22 12:35:04 - INFO - End request
+20-Apr-22 12:41:11 - INFO - restart bot from user 633314824
+20-Apr-22 12:41:36 - INFO - Create new request
+20-Apr-22 12:41:49 - INFO - Update request
+20-Apr-22 12:55:58 - INFO - End request
+20-Apr-22 12:56:14 - INFO - Create new request
+20-Apr-22 12:56:24 - INFO - Update request
+20-Apr-22 12:56:52 - INFO - End request
+20-Apr-22 13:01:55 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:02:45 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:02:47 - INFO - Create new request
+20-Apr-22 13:03:08 - INFO - Update request
+20-Apr-22 13:03:46 - INFO - End request
+20-Apr-22 13:18:43 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:18:45 - INFO - Create new request
+20-Apr-22 13:18:52 - INFO - Update request
+20-Apr-22 13:19:11 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be edited
+20-Apr-22 13:19:44 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:19:47 - INFO - Create new request
+20-Apr-22 13:19:52 - INFO - Update request
+20-Apr-22 13:20:57 - INFO - Create new request
+20-Apr-22 13:21:06 - INFO - Update request
+20-Apr-22 13:21:32 - INFO - End request
+20-Apr-22 13:25:08 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:25:14 - INFO - Create new request
+20-Apr-22 13:25:19 - INFO - Update request
+20-Apr-22 13:25:53 - INFO - End request
+20-Apr-22 13:28:14 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:28:17 - INFO - Create new request
+20-Apr-22 13:28:27 - INFO - Update request
+20-Apr-22 13:30:20 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:30:23 - INFO - Create new request
+20-Apr-22 13:30:30 - INFO - Update request
+20-Apr-22 13:35:10 - INFO - End request
+20-Apr-22 13:36:00 - INFO - Start history query
+20-Apr-22 13:36:22 - ERROR - A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 9
+20-Apr-22 13:49:40 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:49:44 - INFO - Start history query
+20-Apr-22 13:50:05 - ERROR - A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 9
+20-Apr-22 13:52:49 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:52:53 - INFO - Start history query
+20-Apr-22 13:53:10 - INFO - End history query
+20-Apr-22 13:56:28 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 13:56:34 - INFO - Start history query
+20-Apr-22 13:56:50 - INFO - End history query
+20-Apr-22 14:09:15 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:09:20 - INFO - Create new request
+20-Apr-22 14:09:27 - INFO - Update request
+20-Apr-22 14:10:12 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:10:15 - INFO - Create new request
+20-Apr-22 14:10:20 - INFO - Update request
+20-Apr-22 14:11:12 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:11:16 - INFO - Create new request
+20-Apr-22 14:11:20 - INFO - Update request
+20-Apr-22 14:12:14 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:12:15 - INFO - Create new request
+20-Apr-22 14:12:23 - INFO - Update request
+20-Apr-22 14:21:39 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:21:41 - INFO - Create new request
+20-Apr-22 14:22:17 - INFO - Update request
+20-Apr-22 14:25:03 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:25:05 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:25:07 - INFO - Create new request
+20-Apr-22 14:25:18 - INFO - Update request
+20-Apr-22 14:28:01 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:28:04 - INFO - Create new request
+20-Apr-22 14:28:14 - INFO - Update request
+20-Apr-22 14:33:20 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:33:21 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 14:33:25 - INFO - Create new request
+20-Apr-22 14:33:31 - INFO - Update request
+20-Apr-22 14:34:20 - INFO - End request
+20-Apr-22 16:03:17 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 16:03:17 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:21 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:21 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:24 - INFO - Start history query
+20-Apr-22 16:03:24 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:25 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:28 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:29 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:33 - INFO - End history query
+20-Apr-22 16:03:33 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:35 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:39 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:43 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:48 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:03:56 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:04:00 - ERROR - A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+20-Apr-22 16:04:12 - INFO - Start bot "Choosing_hotels_bot"
+20-Apr-22 16:04:15 - INFO - restart bot from user 633314824
+21-Apr-22 13:16:00 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 13:16:15 - INFO - Create new request
+21-Apr-22 13:16:27 - INFO - Update request
+21-Apr-22 13:16:56 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 13:18:09 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 13:18:12 - INFO - Create new request
+21-Apr-22 13:18:19 - INFO - Update request
+21-Apr-22 13:18:51 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 13:22:18 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 13:22:24 - INFO - Create new request
+21-Apr-22 13:22:32 - INFO - Update request
+21-Apr-22 13:23:05 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 13:29:40 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 13:29:45 - INFO - Create new request
+21-Apr-22 13:29:56 - INFO - Update request
+21-Apr-22 13:30:37 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 13:35:19 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 13:35:47 - INFO - Create new request
+21-Apr-22 13:36:04 - INFO - Create new request
+21-Apr-22 13:36:27 - INFO - Create new request
+21-Apr-22 13:36:42 - INFO - Create new request
+21-Apr-22 13:36:48 - INFO - Update request
+21-Apr-22 13:38:14 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 13:58:59 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 13:59:02 - INFO - Create new request
+21-Apr-22 13:59:08 - INFO - Update request
+21-Apr-22 13:59:48 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 14:03:42 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 14:03:49 - INFO - Create new request
+21-Apr-22 14:03:57 - INFO - Update request
+21-Apr-22 14:04:37 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 14:05:22 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 14:07:32 - INFO - Create new request
+21-Apr-22 14:07:38 - INFO - Update request
+21-Apr-22 14:09:02 - INFO - End request
+21-Apr-22 14:10:37 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 14:10:41 - INFO - Create new request
+21-Apr-22 14:10:47 - INFO - Update request
+21-Apr-22 14:11:27 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 14:11:42 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 14:11:47 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 14:11:50 - INFO - Create new request
+21-Apr-22 14:11:57 - INFO - Update request
+21-Apr-22 14:12:41 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 14:54:13 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 14:54:13 - INFO - Create new request
+21-Apr-22 14:54:20 - INFO - Update request
+21-Apr-22 14:56:13 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 16:14:51 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 16:14:56 - INFO - Create new request
+21-Apr-22 16:15:02 - INFO - Update request
+21-Apr-22 16:15:46 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong type of the web page content
+21-Apr-22 16:21:45 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 16:21:47 - INFO - Create new request
+21-Apr-22 16:21:55 - INFO - Update request
+21-Apr-22 16:23:06 - ERROR - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: group send failed
+21-Apr-22 16:29:50 - INFO - Start bot "Choosing_hotels_bot"
+21-Apr-22 16:29:55 - INFO - Create new request
+21-Apr-22 16:30:05 - INFO - Update request
+21-Apr-22 16:31:59 - INFO - End request
+22-Apr-22 10:38:39 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 10:38:48 - INFO - Create new request
+22-Apr-22 10:38:56 - INFO - Update request
+22-Apr-22 10:40:00 - ERROR - A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 9
+22-Apr-22 10:50:30 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 10:50:38 - INFO - Create new request
+22-Apr-22 10:50:46 - INFO - Update request
+22-Apr-22 10:51:45 - ERROR - A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 12
+22-Apr-22 10:54:55 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 10:55:01 - INFO - Create new request
+22-Apr-22 10:55:10 - INFO - Update request
+22-Apr-22 10:56:51 - INFO - End request
+22-Apr-22 10:59:38 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 10:59:46 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 10:59:48 - INFO - Create new request
+22-Apr-22 11:00:01 - INFO - Update request
+22-Apr-22 11:01:58 - INFO - End request
+22-Apr-22 11:02:02 - INFO - Create new request
+22-Apr-22 11:02:12 - INFO - Update request
+22-Apr-22 11:04:02 - INFO - End request
+22-Apr-22 11:04:04 - INFO - Start history query
+22-Apr-22 11:04:28 - ERROR - A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 3
+22-Apr-22 11:05:43 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 11:05:46 - INFO - Start history query
+22-Apr-22 11:06:37 - INFO - End history query
+22-Apr-22 15:46:01 - INFO - Start bot "Choosing_hotels_bot"
+22-Apr-22 15:46:16 - INFO - Create new request
+22-Apr-22 15:46:24 - INFO - Update request
+22-Apr-22 15:47:46 - INFO - End request
