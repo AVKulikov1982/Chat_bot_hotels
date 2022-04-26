@@ -63,7 +63,7 @@ def get_district(city: str) -> list:
 	url_location = os.getenv('url_api') + "locations/v2/search"
 	headers = {
 		'x-rapidapi-host': os.getenv('x-rapidapi-host'),
-		'x-rapidapi-key': os.getenv('HOTELS_RU_TOKEN3')
+		'x-rapidapi-key': os.getenv('HOTELS_RU_TOKEN')
 	}
 	querystring_location = {"query": city.lower(), "locale": "en_EN", "currency": "USD"}
 
@@ -99,7 +99,7 @@ def get_properties(id_destination: int, date_from: date, date_to: date, order_by
 	"""
 	list_result = []
 	url_properties_list = os.getenv('url_api') + "properties/list"
-	headers_properties_list = {'x-rapidapi-key': os.getenv('HOTELS_RU_TOKEN3'),
+	headers_properties_list = {'x-rapidapi-key': os.getenv('HOTELS_RU_TOKEN'),
 							   'x-rapidapi-host': os.getenv('x-rapidapi-host')}
 	if min_cost and max_cost:
 		querystring_properties_list = {"adults1": "1", "pageNumber": "1", "destinationId": id_destination, "pageSize": "15",
@@ -162,7 +162,7 @@ def get_photo_hotel(q_photo: int, id_user: int) -> list:
 		querystring = {"id": hotel["id"]}
 		headers = {
 			'x-rapidapi-host': os.getenv('x-rapidapi-host'),
-			'x-rapidapi-key': os.getenv('HOTELS_RU_TOKEN3')
+			'x-rapidapi-key': os.getenv('HOTELS_RU_TOKEN')
 		}
 		response_photo = requests.request("GET", url_photo, headers=headers, params=querystring)
 		try:
